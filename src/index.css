@@ -49,3 +49,17 @@ body {
   border-bottom-left-radius: 0.5rem;
   overflow: hidden;
 }
+.copied-message {
+  display: none;
+  position: absolute;
+  top: 50px;
+
+  z-index: 2;
+  background-color: white;
+  color: black;
+  padding: 3px;
+  border-radius: 5px;
+}
+.copied-message.show {
+  display: block;
+}
